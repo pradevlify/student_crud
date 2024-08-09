@@ -133,6 +133,12 @@ app.delete("/students/:id", async (req, res) => {
 });
 
 function ab() {}
+function rt() {
+  return "ok";
+}
+function rte() {
+  return "ojok";
+}
 app.listen(4000, () => {
   console.log(" async Server running on port 4000");
 });

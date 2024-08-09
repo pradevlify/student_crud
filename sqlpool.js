@@ -167,6 +167,9 @@ app.delete("/students/:id", (req, res) => {
   });
 });
 
+function rte() {
+  return "ojok";
+}
 app.listen(4000, () => {
   console.log("Server running on port 4000");
 });
